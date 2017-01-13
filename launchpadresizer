@@ -1,0 +1,9 @@
+#!/bin/bash
+echo " " 
+echo "SELECT COLUMNS:"
+read col
+echo "SELECT ROWS:"
+read row
+defaults write com.apple.dock springboard-columns -int $col
+defaults write com.apple.dock springboard-rows -int $row
+killall Dock
