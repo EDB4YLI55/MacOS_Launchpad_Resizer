@@ -47,3 +47,4 @@ else
 fi
 # this then restarts the dock/launchpad as that is required for the changes to make take effect.
 killall Dock 2> /dev/null
+echo "[+] Complete. You should now have a launchpad of $columns by $rows"
