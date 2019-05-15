@@ -47,3 +47,4 @@ else
 fi
 # this then restarts the dock/launchpad as that is required for the changes to make take effect.
 killall Dock 2> /dev/null
+echo "[+] Complete, your launchpad should now be $columns icons across and $rows icons down."
